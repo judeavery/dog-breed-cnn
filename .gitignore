@@ -188,6 +188,17 @@ cython_debug/
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
+# Ignore dataset and temporary files
+data/
+__pycache__/
+*.h5
+*.ckpt
+*.zip
+*.tar.gz
+.DS_Store
+.ipynb_checkpoints/
+
+
 # Ruff stuff:
 .ruff_cache/
 
